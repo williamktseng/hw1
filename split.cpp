@@ -19,9 +19,9 @@ void split(Node*& in, Node*& odds, Node*& evens)
   /* Add code here */
 // WRITE YOUR CODE HERE
   Node* currentNode = in;
-  if(currentNode == NULL){
-    odds = NULL;
-    evens = NULL;
+  if(currentNode == nullptr){
+    odds = nullptr;
+    evens = nullptr;
     return;
   }
   if(currentNode->value % 2 == 1){
